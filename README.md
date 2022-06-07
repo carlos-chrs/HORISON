@@ -36,15 +36,8 @@ Ya tenemos todo lo que necesitamos para probar nuestro contrato inteligente. Aho
 
 - [CARLOS HERNANDEZ](https://github.com/carlos-chrs)
 
-## Contact with me
 
-<a target="_blank" rel="vsc" href="https://www.linkedin.com/in/luis-carlos-rendon-8945a0221/">
-<img alt="likedin-logo" src="https://github.com/devicons/devicon/blob/master/icons/linkedin/linkedin-original.svg" style="max-width: 100%;"
-     width="60" height="60" align="middle">
-</a>
-<a target="_blank" rel="vsc" href="https://www.facebook.com/luisc.rendon.3">
-<img alt="facebook-logo" src="https://github.com/devicons/devicon/blob/master/icons/facebook/facebook-original.svg" style="max-width: 100%;"
-     width="60" height="60" align="middle">
-</a>
+
+
 
 
