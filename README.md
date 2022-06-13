@@ -31,6 +31,7 @@ Ya tenemos todo lo que necesitamos para probar nuestro contrato inteligente. Aho
 ## Author
 
 - [CARLOS HERNANDEZ](https://github.com/carlos-chrs)
+- [ANDRE EMMANUEL ](https://github.com/AndreLuna6)
 
 
 
