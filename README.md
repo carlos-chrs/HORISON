@@ -44,15 +44,41 @@ near call (SUCUENTA TESTNET) setCurso '{"NOMBREC" : "Ingles", "idC":"02", "Clasi
 ```
 * visualizar todos los cursos
 ```
- near call (SUBCUENTA TESTNET) getCursos --accountId (CUENTA TESTNET)
+ near call (SUBCUENTA TESTNET) getCurso --accountId (CUENTA TESTNET)
  ```
+ * ingresar nueva persona
+```
+near call (SUCUENTA TESTNET) setPersona '{"NOMBREP" : "Carlos", "idC":"02"}' --accountId (CUENTA TESTNET)
+```
+* visualizar toda las personas
+```
+ near call (SUBCUENTA TESTNET) getPersona --accountId (CUENTA TESTNET)
+ ```
+* ingresar nuevo estudiante
+```
+near call (SUCUENTA TESTNET) setCurso '{"NOMBREC" : "Matra", "idC":"02"}' --accountId (CUENTA TESTNET)
+```
+* visualizar todos los estudiantes
+```
+ near call (SUBCUENTA TESTNET) getCurso --accountId (CUENTA TESTNET)
+ ```
+* ingresar nuevo Profesor
+```
+near call (SUCUENTA TESTNET) setCurso '{"NOMBREC" : "JUan", "idC":"02"}' --accountId (CUENTA TESTNET)
+```
+* visualizar todos los Profesores
+```
+ near call (SUBCUENTA TESTNET) getCurso --accountId (CUENTA TESTNET)
+ ```
+
+
 
    
 
 ## Author
 
-- [CARLOS HERNANDEZ](https://github.com/carlos-chrs)
-- [ANDRE EMMANUEL ](https://github.com/AndreLuna6)
+- [CARLOS HERNANDEZ](https://github.com/carlos-chrs) | lider de equipo
+- [ANDRE EMMANUEL ](https://github.com/AndreLuna6)   | sublider de equipo
 
 
 
