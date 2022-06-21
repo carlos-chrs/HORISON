@@ -19,6 +19,8 @@ tiene la finalidad de dar mas oportunidad de trabajo por si solo a las personas 
 
 Ya tenemos todo lo que necesitamos para probar nuestro contrato inteligente. Ahora vamos a ejecutarlo.
 
+## Instalacion de contrato
+
 ## Instalación :open_file_folder:
 ---
 1. Clone el repositorio ```git clone https://github.com/Near-University-Tec-de-Tlaxiaco/horizon``` 
@@ -26,6 +28,25 @@ Ya tenemos todo lo que necesitamos para probar nuestro contrato inteligente. Aho
 3. Dentro del repositorio, instalemos las dependencias del proyecto ejecutando ```npm install```, tranquilo, esto puede tomar unos segundos.
 4. Si quieres desplegar el contrato y probar sus funciones, puedes hacerlo con ```yarn deploy:dev``` esto le devolverá un conjunto de caracteres que empezarán por "dev-" seguido por numeros generados por la red. Guárdelo, lo necesitará si quiere probar los métodos del contrato inteligente.
 5. Por último, si queremos ejecutar los tests desarrollados, podemos hacerlo ejecutando ```yarn test```
+
+1. Clonar el contrato con ``git clone https://github.com/Near-University-Tec-de-Tlaxiaco/horizon.git && cd horizon`` 
+2. instalar el sdk de near con ``yarn install`` 
+
+## Compilacion del contrato
+1. Ingresar a nuestra cuenta testnet con ``near login``, se abrira nuestro navegador para poder ingresar
+2. compilar el contrato con ``yarn asb`` 
+3. implementar el contrato con ``near deploy --accountId (CUENTA TESTNET) --wasmFile build/release/contrato.wasm`` 
+
+## llamar funciones
+* ingresar nuevo curso
+```
+near call (SUCUENTA TESTNET) setCurso '{"NOMBREC" : "Ingles", "idC":"02", "Clasificacion": "lengua extranjera"}' --accountId (CUENTA TESTNET)
+```
+* visualizar todos los cursos
+```
+ near call (SUBCUENTA TESTNET) getCursos --accountId (CUENTA TESTNET)
+ ```
+
    
 
 ## Author
