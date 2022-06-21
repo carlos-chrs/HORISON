@@ -56,19 +56,19 @@ near call (SUCUENTA TESTNET) setPersona '{"NOMBREP" : "Carlos", "idC":"02"}' --a
  ```
 * ingresar nuevo estudiante
 ```
-near call (SUCUENTA TESTNET) setCurso '{"NOMBREC" : "Matra", "idC":"02"}' --accountId (CUENTA TESTNET)
+near call (SUCUENTA TESTNET) setEstudiante '{"NOMBREC" : "Matra", "idC":"02"}' --accountId (CUENTA TESTNET)
 ```
 * visualizar todos los estudiantes
 ```
- near call (SUBCUENTA TESTNET) getCurso --accountId (CUENTA TESTNET)
+ near call (SUBCUENTA TESTNET) getEstudiante --accountId (CUENTA TESTNET)
  ```
 * ingresar nuevo Profesor
 ```
-near call (SUCUENTA TESTNET) setCurso '{"NOMBREC" : "JUan", "idC":"02"}' --accountId (CUENTA TESTNET)
+near call (SUCUENTA TESTNET) setProfesor '{"NOMBREC" : "JUan", "idC":"02"}' --accountId (CUENTA TESTNET)
 ```
 * visualizar todos los Profesores
 ```
- near call (SUBCUENTA TESTNET) getCurso --accountId (CUENTA TESTNET)
+ near call (SUBCUENTA TESTNET) getProfesor --accountId (CUENTA TESTNET)
  ```
 
 
